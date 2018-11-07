@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: lightgray; */
+    background-color: rgb(207, 207, 207);
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    margin: 3%;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.Imgbutton {
+    display: none;
+}
+
+#Homebutton {
+    float: right;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+#homeh1 {
+    padding: 50px;
+}
+
+.homeart {
+    margin-bottom: 13%;
+    margin-top: 13%;
+    background-color: rgba(179, 179, 179, 0.719);
+    box-shadow: 1px 1px 3px 0px  rgba(0,0,0,0.3);
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+#Harticle1 {
+    margin: 4%;
+}
+
+.homeh2 {
+    font-size: 40px;
+    padding: 20px;
+    /* display: flex; */
+    /* order: 1; */
+}
+
+img {
+    width: 70%;
+    height: auto;
+    margin: 30px;
+    border: 50px;
+    border-color: rgb(151, 151, 151);
+    border-style: solid;
+    filter: drop-shadow(1.5px 2px 3px);
+    /* display: flex; */
+}
+
+img:hover {
+    filter: drop-shadow(4px 4.5px 5px);
+    transition-duration: 0.2s;
+    /* transition-timing-function: ease; */
+}
+
+.homep {
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 525;
+}
+
+.artbuttons {
+    /* display: flex; */
+    /* order: 7; */
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: none;
+    color: black;
+    font-size: 18px;
+    display: inline-block;
+    /* height: 50px; */
+    /* width: 155px; */
+    padding: 14px 25px; 
+    filter: drop-shadow(0.3px 1px 1px);
+    border-radius: 3px;
+    background-color: rgba(175, 175, 175, 0.582);
+}
+
+.artbuttons:hover {
+    cursor: pointer;
+    background-color: rgb(175, 175, 175);
+}
+
