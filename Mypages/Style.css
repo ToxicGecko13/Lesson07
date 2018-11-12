@@ -13,6 +13,10 @@ body {
 }
 
 .navbar {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    /* align-content: center; */
     background-color: black;
     width: 100%;
 }
@@ -31,11 +35,23 @@ body {
     cursor: pointer;
 }
 
+.navbutt {
+    /* justify-self: flex-start; */
+}
+
+.navbuttons {
+    /* justify-self: flex-start; */
+    /* align-self: auto; */
+}
+
 .Imgbutton {
     display: none;
 }
 
 #Homebutton {
+    /* display: flex; */
+    /* justify-self: flex-end; */
+    /* align-self: auto; */
     float: right;
 }
 
